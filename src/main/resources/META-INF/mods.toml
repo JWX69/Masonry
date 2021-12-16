@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[37,)"
+license="All rights reserved"
+[[mods]]
+modId="masonry"
+version="${file.jarVersion}"
+displayName="Mansonry"
+logoFile="Mansonry.png"
+description='''
+A mod that adds more cut stone types
+because minecraft wouldn't.
+'''
+[[dependencies.masonry]]
+    modId="forge"
+    mandatory=true
+    versionRange="[37,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.masonry]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.17.1,1.18)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.masonry]]
+modId = "blueprint"
+mandatory = true
+versionRange = "[1.17.1-4.0.1,)"
+ordering = "BEFORE"
+side = "BOTH"

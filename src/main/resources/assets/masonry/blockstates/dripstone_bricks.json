@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "masonry:block/dripstone_bricks"
+    }
+  }
+}

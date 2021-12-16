@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "masonry:polished_tuff",
+    "masonry:tuff_bricks",
+    "masonry:cracked_tuff_bricks",
+    "masonry:chiseled_tuff",
+    "masonry:polished_dripstone",
+    "masonry:dripstone_bricks",
+    "masonry:cracked_dripstone_bricks",
+    "masonry:chiseled_dripstone",
+    "masonry:polished_calcite",
+    "masonry:calcite_bricks",
+    "masonry:cracked_calcite_bricks",
+    "masonry:chiseled_calcite",
+    "masonry:granite_bricks",
+    "masonry:cracked_granite_bricks",
+    "masonry:chiseled_granite",
+    "masonry:andesite_bricks",
+    "masonry:cracked_andesite_bricks",
+    "masonry:chiseled_andesite",
+    "masonry:granite_bricks",
+    "masonry:cracked_granite_bricks",
+    "masonry:chiseled_granite",
+    "masonry:diorite_bricks",
+    "masonry:cracked_diorite_bricks",
+    "masonry:chiseled_diorite"
+  ]
+}

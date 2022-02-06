@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "   ",
+        "   ",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "masonry:polished_tuff"
+        }
+    },
+    "result": {
+        "item": "masonry:polished_tuff_slab",
+        "count": 6
+    }
+}

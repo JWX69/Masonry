@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "   ",
+        "XX ",
+        "XX "
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:tuff"
+        }
+    },
+    "result": {
+        "item": "minecraft:cut_tuff",
+        "count": 4
+    }
+}

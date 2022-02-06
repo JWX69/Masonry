@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "   ",
+        " X ",
+        " X "
+    ],
+    "key": {
+        "X": {
+            "item": "masonry:tuff_bricks_slab"
+        }
+    },
+    "result": {
+        "item": "masonry:chiseled_tuff_brick",
+        "count": 1
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "type=bottom": {
+            "model": "masonry:block/tuff_brick_slab"
+        },
+        "type=double": {
+            "model": "masonry:block/tuff_bricks"
+        },
+        "type=top": {
+            "model": "masonry:block/tuff_brick_slab_top"
+        }
+    }
+}

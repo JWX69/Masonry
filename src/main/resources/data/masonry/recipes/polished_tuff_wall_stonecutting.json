@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "masonry:tuff_bricks"
+    },
+    "result": "masonry:polished_tuff_wall",
+    "count": 1
+}

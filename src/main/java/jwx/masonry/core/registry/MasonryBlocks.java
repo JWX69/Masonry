@@ -1,25 +1,20 @@
 package jwx.masonry.core.registry;
 
-import com.mojang.datafixers.util.Pair;
-import com.teamabnormals.blueprint.core.util.PropertyUtil;
 import com.teamabnormals.blueprint.core.util.registry.BlockSubRegistryHelper;
 import jwx.masonry.core.Masonry;
-import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.level.block.*;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.SlabBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.material.MaterialColor;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fmllegacy.RegistryObject;
-import org.lwjgl.system.CallbackI;
-import org.stringtemplate.v4.ST;
+import net.minecraftforge.registries.RegistryObject;
 
 @Mod.EventBusSubscriber(modid = Masonry.MOD_ID,bus= Mod.EventBusSubscriber.Bus.MOD)
 public class MasonryBlocks {
     public static final BlockSubRegistryHelper HELPER = Masonry.REGISTRY_HELPER.getBlockSubHelper();
     //tuff
-    public static final RegistryObject<Block>  POLISHED_TUFF = HELPER.createBlock("polished_tuff", () -> new Block(BlockBehaviour.Properties.copy(Blocks.TUFF)), CreativeModeTab.TAB_BUILDING_BLOCKS);
+    public static final RegistryObject<Block> POLISHED_TUFF = HELPER.createBlock("polished_tuff", () -> new Block(BlockBehaviour.Properties.copy(Blocks.TUFF)), CreativeModeTab.TAB_BUILDING_BLOCKS);
     public static final RegistryObject<Block>  TUFF_BRICKS = HELPER.createBlock("tuff_bricks", () -> new Block(BlockBehaviour.Properties.copy(Blocks.TUFF)), CreativeModeTab.TAB_BUILDING_BLOCKS);
     public static final RegistryObject<Block>  CRACKED_TUFF_BRICKS = HELPER.createBlock("cracked_tuff_bricks", () -> new Block(BlockBehaviour.Properties.copy(Blocks.TUFF)), CreativeModeTab.TAB_BUILDING_BLOCKS);
     public static final RegistryObject<Block>  CHISELED_TUFF = HELPER.createBlock("chiseled_tuff", () -> new Block(BlockBehaviour.Properties.copy(Blocks.TUFF)), CreativeModeTab.TAB_BUILDING_BLOCKS);
